@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6F53E1B77E51BFA7EF5A20 /* Pods_holidayCheckListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFBE7D164D5B084451BE758 /* Pods_holidayCheckListTests.framework */; };
+		4EB45FA9256DC4DB00A9D20D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB45FA8256DC4DB00A9D20D /* Category.swift */; };
 		4EE468B2256DA73B001CFC8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE468B1256DA73B001CFC8E /* AppDelegate.swift */; };
 		4EE468B4256DA73B001CFC8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE468B3256DA73B001CFC8E /* SceneDelegate.swift */; };
 		4EE468B6256DA73B001CFC8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE468B5256DA73B001CFC8E /* ViewController.swift */; };
@@ -15,6 +17,11 @@
 		4EE468BE256DA73E001CFC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE468BC256DA73E001CFC8E /* LaunchScreen.storyboard */; };
 		4EE468C9256DA73E001CFC8E /* holidayCheckListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE468C8256DA73E001CFC8E /* holidayCheckListTests.swift */; };
 		4EE468D4256DA73E001CFC8E /* holidayCheckListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE468D3256DA73E001CFC8E /* holidayCheckListUITests.swift */; };
+		4EE468EF256DAD01001CFC8E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE468EE256DAD01001CFC8E /* Item.swift */; };
+		4EE468F7256DAE70001CFC8E /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE468F6256DAE70001CFC8E /* CategoryTableViewController.swift */; };
+		4EE468FC256DAE82001CFC8E /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE468FB256DAE82001CFC8E /* SwipeTableViewController.swift */; };
+		B3D322C7CBC04C3D81C8B7CD /* Pods_holidayCheckList_holidayCheckListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386640024B69843435265F91 /* Pods_holidayCheckList_holidayCheckListUITests.framework */; };
+		DB0EFDF6B2F0B6B7D21B1417 /* Pods_holidayCheckList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0184B30236D57C6D0D0BACF /* Pods_holidayCheckList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03DC887CBF2FB561118914D3 /* Pods-holidayCheckList-holidayCheckListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayCheckList-holidayCheckListUITests.debug.xcconfig"; path = "Target Support Files/Pods-holidayCheckList-holidayCheckListUITests/Pods-holidayCheckList-holidayCheckListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		294126773BA9C8A529ADDE16 /* Pods-holidayCheckList-holidayCheckListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayCheckList-holidayCheckListUITests.release.xcconfig"; path = "Target Support Files/Pods-holidayCheckList-holidayCheckListUITests/Pods-holidayCheckList-holidayCheckListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AFBE7D164D5B084451BE758 /* Pods_holidayCheckListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_holidayCheckListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECEFE87AC34AB59CF2DFDF4 /* Pods-holidayCheckList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayCheckList.release.xcconfig"; path = "Target Support Files/Pods-holidayCheckList/Pods-holidayCheckList.release.xcconfig"; sourceTree = "<group>"; };
+		386640024B69843435265F91 /* Pods_holidayCheckList_holidayCheckListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_holidayCheckList_holidayCheckListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB45FA8256DC4DB00A9D20D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		4EE468AE256DA73B001CFC8E /* holidayCheckList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holidayCheckList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE468B1256DA73B001CFC8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE468B3256DA73B001CFC8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,13 @@
 		4EE468CF256DA73E001CFC8E /* holidayCheckListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holidayCheckListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE468D3256DA73E001CFC8E /* holidayCheckListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holidayCheckListUITests.swift; sourceTree = "<group>"; };
 		4EE468D5256DA73E001CFC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE468EE256DAD01001CFC8E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4EE468F6256DAE70001CFC8E /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		4EE468FB256DAE82001CFC8E /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		8796FD04556F6F06BAEA5929 /* Pods-holidayCheckListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayCheckListTests.debug.xcconfig"; path = "Target Support Files/Pods-holidayCheckListTests/Pods-holidayCheckListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2D48DDAA19077A647CB0BFE /* Pods-holidayCheckList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayCheckList.debug.xcconfig"; path = "Target Support Files/Pods-holidayCheckList/Pods-holidayCheckList.debug.xcconfig"; sourceTree = "<group>"; };
+		E0184B30236D57C6D0D0BACF /* Pods_holidayCheckList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_holidayCheckList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78BFD0EF57556AFE22C3625 /* Pods-holidayCheckListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-holidayCheckListTests.release.xcconfig"; path = "Target Support Files/Pods-holidayCheckListTests/Pods-holidayCheckListTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0EFDF6B2F0B6B7D21B1417 /* Pods_holidayCheckList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6F53E1B77E51BFA7EF5A20 /* Pods_holidayCheckListTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D322C7CBC04C3D81C8B7CD /* Pods_holidayCheckList_holidayCheckListUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				4EE468C7256DA73E001CFC8E /* holidayCheckListTests */,
 				4EE468D2256DA73E001CFC8E /* holidayCheckListUITests */,
 				4EE468AF256DA73B001CFC8E /* Products */,
+				EABDB325AF266FAF90CA05A1 /* Pods */,
+				CF0D761FCCBAB9F831468DD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				4EE468B1256DA73B001CFC8E /* AppDelegate.swift */,
+				4EE468EA256DAC94001CFC8E /* Data Model */,
+				4EE468EB256DACA0001CFC8E /* Views */,
+				4EE468EC256DACA8001CFC8E /* Controllers */,
 				4EE468B3256DA73B001CFC8E /* SceneDelegate.swift */,
-				4EE468B5256DA73B001CFC8E /* ViewController.swift */,
-				4EE468B7256DA73B001CFC8E /* Main.storyboard */,
-				4EE468BA256DA73E001CFC8E /* Assets.xcassets */,
-				4EE468BC256DA73E001CFC8E /* LaunchScreen.storyboard */,
+				4EE468ED256DACB0001CFC8E /* Supporting Files */,
 				4EE468BF256DA73E001CFC8E /* Info.plist */,
 			);
 			path = holidayCheckList;
@@ -128,6 +153,65 @@
 			path = holidayCheckListUITests;
 			sourceTree = "<group>";
 		};
+		4EE468EA256DAC94001CFC8E /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EB45FA8256DC4DB00A9D20D /* Category.swift */,
+				4EE468EE256DAD01001CFC8E /* Item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		4EE468EB256DACA0001CFC8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EE468B7256DA73B001CFC8E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4EE468EC256DACA8001CFC8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EE468B5256DA73B001CFC8E /* ViewController.swift */,
+				4EE468F6256DAE70001CFC8E /* CategoryTableViewController.swift */,
+				4EE468FB256DAE82001CFC8E /* SwipeTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4EE468ED256DACB0001CFC8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EE468BA256DA73E001CFC8E /* Assets.xcassets */,
+				4EE468BC256DA73E001CFC8E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF0D761FCCBAB9F831468DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0184B30236D57C6D0D0BACF /* Pods_holidayCheckList.framework */,
+				386640024B69843435265F91 /* Pods_holidayCheckList_holidayCheckListUITests.framework */,
+				2AFBE7D164D5B084451BE758 /* Pods_holidayCheckListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EABDB325AF266FAF90CA05A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2D48DDAA19077A647CB0BFE /* Pods-holidayCheckList.debug.xcconfig */,
+				2ECEFE87AC34AB59CF2DFDF4 /* Pods-holidayCheckList.release.xcconfig */,
+				03DC887CBF2FB561118914D3 /* Pods-holidayCheckList-holidayCheckListUITests.debug.xcconfig */,
+				294126773BA9C8A529ADDE16 /* Pods-holidayCheckList-holidayCheckListUITests.release.xcconfig */,
+				8796FD04556F6F06BAEA5929 /* Pods-holidayCheckListTests.debug.xcconfig */,
+				E78BFD0EF57556AFE22C3625 /* Pods-holidayCheckListTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EE468D8256DA73E001CFC8E /* Build configuration list for PBXNativeTarget "holidayCheckList" */;
 			buildPhases = (
+				CAC70E59D0BF1A611E3C8121 /* [CP] Check Pods Manifest.lock */,
 				4EE468AA256DA73B001CFC8E /* Sources */,
 				4EE468AB256DA73B001CFC8E /* Frameworks */,
 				4EE468AC256DA73B001CFC8E /* Resources */,
+				B90638702D52805E1536B315 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EE468DB256DA73E001CFC8E /* Build configuration list for PBXNativeTarget "holidayCheckListTests" */;
 			buildPhases = (
+				662CA60B88DA2691E1E7766E /* [CP] Check Pods Manifest.lock */,
 				4EE468C0256DA73E001CFC8E /* Sources */,
 				4EE468C1256DA73E001CFC8E /* Frameworks */,
 				4EE468C2256DA73E001CFC8E /* Resources */,
+				534DCD430D09EF2B321E0491 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EE468DE256DA73E001CFC8E /* Build configuration list for PBXNativeTarget "holidayCheckListUITests" */;
 			buildPhases = (
+				B5F8FF15153D5C728820E31B /* [CP] Check Pods Manifest.lock */,
 				4EE468CB256DA73E001CFC8E /* Sources */,
 				4EE468CC256DA73E001CFC8E /* Frameworks */,
 				4EE468CD256DA73E001CFC8E /* Resources */,
+				02C351C0889DD954468968B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +343,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02C351C0889DD954468968B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-holidayCheckList-holidayCheckListUITests/Pods-holidayCheckList-holidayCheckListUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-holidayCheckList-holidayCheckListUITests/Pods-holidayCheckList-holidayCheckListUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-holidayCheckList-holidayCheckListUITests/Pods-holidayCheckList-holidayCheckListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534DCD430D09EF2B321E0491 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-holidayCheckListTests/Pods-holidayCheckListTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-holidayCheckListTests/Pods-holidayCheckListTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-holidayCheckListTests/Pods-holidayCheckListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662CA60B88DA2691E1E7766E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-holidayCheckListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F8FF15153D5C728820E31B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-holidayCheckList-holidayCheckListUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90638702D52805E1536B315 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-holidayCheckList/Pods-holidayCheckList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-holidayCheckList/Pods-holidayCheckList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-holidayCheckList/Pods-holidayCheckList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC70E59D0BF1A611E3C8121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-holidayCheckList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EE468AA256DA73B001CFC8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE468EF256DAD01001CFC8E /* Item.swift in Sources */,
 				4EE468B6256DA73B001CFC8E /* ViewController.swift in Sources */,
+				4EE468F7256DAE70001CFC8E /* CategoryTableViewController.swift in Sources */,
 				4EE468B2256DA73B001CFC8E /* AppDelegate.swift in Sources */,
+				4EE468FC256DAE82001CFC8E /* SwipeTableViewController.swift in Sources */,
 				4EE468B4256DA73B001CFC8E /* SceneDelegate.swift in Sources */,
+				4EB45FA9256DC4DB00A9D20D /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +647,7 @@
 		};
 		4EE468D9256DA73E001CFC8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D48DDAA19077A647CB0BFE /* Pods-holidayCheckList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +667,7 @@
 		};
 		4EE468DA256DA73E001CFC8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECEFE87AC34AB59CF2DFDF4 /* Pods-holidayCheckList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +687,7 @@
 		};
 		4EE468DC256DA73E001CFC8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8796FD04556F6F06BAEA5929 /* Pods-holidayCheckListTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +710,7 @@
 		};
 		4EE468DD256DA73E001CFC8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78BFD0EF57556AFE22C3625 /* Pods-holidayCheckListTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +733,7 @@
 		};
 		4EE468DF256DA73E001CFC8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DC887CBF2FB561118914D3 /* Pods-holidayCheckList-holidayCheckListUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +754,7 @@
 		};
 		4EE468E0256DA73E001CFC8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294126773BA9C8A529ADDE16 /* Pods-holidayCheckList-holidayCheckListUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
